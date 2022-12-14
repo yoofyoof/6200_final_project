@@ -1,0 +1,10 @@
+<tbody>
+    {% for hit in response_dict %}
+      <tr>
+        <td>{{hit["_source"]["Company"]}}</td><br>
+        <td>{{hit["_source"]["Title"]}}</td><br>
+        <td>{{hit["_source"]["Link"]}}</td><br><br>
+      </tr>
+    {% endfor %}
+  </tbody>
+  
