@@ -61,11 +61,11 @@ def search():
       "pagerank": {
         "type": "rank_feature"
       },
-      "url_length": {
+      "num_of_times_applied": {
         "type": "rank_feature",
         "positive_score_impact": "false"
       },
-      "topics": {
+      "date_posted": {
         "type": "rank_features"
       }
     }
